@@ -1,0 +1,54 @@
+main{
+    background-color:rgba(100, 18, 80, 0.5);
+    height: 650px;
+    background-image: url();
+    width: auto;
+    
+}
+section{
+    background-color: rgba(59, 5, 252, 0.541);
+    height: 100px;
+    
+}
+
+.gp{
+    height:100px;
+    border-radius: 50px;
+    text-align: center;
+    float: left;
+}
+
+h1{
+    padding-top: 10px;
+    margin: 20px; 
+color: whitesmoke;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white; 
+}
+
+footer{
+    background-color: chartreuse;
+    float: left;
+    height: 550px;
+    
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    color:black;
+}
+    /* fadein and out rules, at first 1, 100 and finally zero which will make it disappear*/
+    @keyframes fade-inout{
+        0%{opacity: 1;}
+        100%{opacity:0;} 
+    }
+             /* target the div in question */
+     .fade{
+        animation: fade-inout 1s infinite alternate;
+        font-size: 30px;
+        text-align: center;
+        color: blue;}
